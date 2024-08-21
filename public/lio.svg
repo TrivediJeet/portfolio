@@ -1,0 +1,9 @@
+<svg width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <circle cx="25" cy="25" r="25" fill="#5c5959" /> 
+  <text x="25" y="22" font-family="Impact, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">
+    <tspan stroke="#B4D8E8" stroke-width="0.75">LAWN IN</tspan>
+  </text>
+  <text x="25" y="32" font-family="Impact, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">
+    <tspan stroke="#CC555A" stroke-width="0.75">ORDER</tspan>
+  </text>
+</svg>
