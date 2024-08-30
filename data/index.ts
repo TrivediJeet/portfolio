@@ -75,7 +75,7 @@ export const projects = [
     title: "Uber Clone",
     des: "A full-stack Uber clone built with React Native, showcasing real-time location tracking, seamless booking, and secure payments",
     img: "/iP14PM_Mock-up_Maker_2-removebg-preview.png",
-    iconLists: ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAWlBMVEUAABMAABQAAAoAAABGRkvT09To6OhxcXTi4uP8/P02NjwAAAePj5LFxcb///8NDRr29vampqiwsLK4uLoAABBBQUeenqBYWFwAAA4XFyHNzc7AwMKVlZeCgoUNhqjnAAAAnUlEQVR4Ac3SRQKEMAAEwWwad3f+/8x1I3ZmjlMQF+5crDkBSmlHPA8b4geBjxkJI4hCTCiIkzRNYoQByXLuyTN0FBQlVUVZIDSkbmjruqWpUbGTBV4McU+RdgrSDlQjjBVDyxGnuSBb7iVLRjFPB2S9d929m0RBtnLEimV7Vmw5lYJ7HLwbgnhHWVD/WWMne9R9yt+pyfO8IRVduQHSkAgQ6p7d2QAAAABJRU5ErkJggg==", "/tail.svg", "/ts.svg", "/c.svg", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAbFBMVEVHcEwL4NIP484I4tIX5Mgi574s57Ms2qdi9lNi9VQL4dFi9lRi9lQL4tAh5r4x6a4s2qZC6pBj9lVi9VRi9VRi9lRi9lRi9lRi9lRi9lRi9lQ366Y77KFD7JVQ6HM36qdE7pZI54ZR53E97J8gbn7DAAAAJHRSTlMAX9b//////8xSof+d7NnZ2AfaF0cscIbwvX38ytjrXv///aErfwEpAAAAz0lEQVR4AZ3PBZLDMAxAUYXtMDPn/ndcKczb9g/7jW0JAARRGpMphVJVTWMcMH2S2UZF0wzDxHvbtfXehAYHEcUSKXvJcTFEBmQeXPNRCUV4RvlXlF8QF7BhKwijR4zxKHnAwKDiDRVlQz5iGj0j6oLKDRrZiuoRfdL84WZskoZsRPV0MwE6T8ebqqo6JwxSA3tACN8QkhWLK0I2LaQW6g0GqH6EWBTeBcELwwCgLLBqrkaMYatBa4sW67quRwxg10AyGWEOh5qSaLrJwr38AeQ6FpLPC98nAAAAAElFTkSuQmCC"],
+    iconLists: ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAWlBMVEUAABMAABQAAAoAAABGRkvT09To6OhxcXTi4uP8/P02NjwAAAePj5LFxcb///8NDRr29vampqiwsLK4uLoAABBBQUeenqBYWFwAAA4XFyHNzc7AwMKVlZeCgoUNhqjnAAAAnUlEQVR4Ac3SRQKEMAAEwWwad3f+/8x1I3ZmjlMQF+5crDkBSmlHPA8b4geBjxkJI4hCTCiIkzRNYoQByXLuyTN0FBQlVUVZIDSkbmjruqWpUbGTBV4McU+RdgrSDlQjjBVDyxGnuSBb7iVLRjFPB2S9d929m0RBtnLEimV7Vmw5lYJ7HLwbgnhHWVD/WWMne9R9yt+pyfO8IRVduQHSkAgQ6p7d2QAAAABJRU5ErkJggg==", "/tail.svg", "/three.svg", "/c.svg", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAbFBMVEVHcEwL4NIP484I4tIX5Mgi574s57Ms2qdi9lNi9VQL4dFi9lRi9lQL4tAh5r4x6a4s2qZC6pBj9lVi9VRi9VRi9lRi9lRi9lRi9lRi9lRi9lQ366Y77KFD7JVQ6HM36qdE7pZI54ZR53E97J8gbn7DAAAAJHRSTlMAX9b//////8xSof+d7NnZ2AfaF0cscIbwvX38ytjrXv///aErfwEpAAAAz0lEQVR4AZ3PBZLDMAxAUYXtMDPn/ndcKczb9g/7jW0JAARRGpMphVJVTWMcMH2S2UZF0wzDxHvbtfXehAYHEcUSKXvJcTFEBmQeXPNRCUV4RvlXlF8QF7BhKwijR4zxKHnAwKDiDRVlQz5iGj0j6oLKDRrZiuoRfdL84WZskoZsRPV0MwE6T8ebqqo6JwxSA3tACN8QkhWLK0I2LaQW6g0GqH6EWBTeBcELwwCgLLBqrkaMYatBa4sW67quRwxg10AyGWEOh5qSaLrJwr38AeQ6FpLPC98nAAAAAElFTkSuQmCC"],
     link: "https://github.com/TrivediJeet/portfolio",
   },
   {
@@ -118,39 +118,6 @@ export const testimonials = [
       "Working with Jeet to create our new landscaping website was an absolute pleasure. From the start, his open communication and clear guidance put us at ease throughout the entire process. He took the time to truly understand our business, our vision, and our target audience. The end result was nothing short of amazing. The website is modern, visually stunning, and perfectly showcases the quality of our work. We've received so many compliments from our customers on how easy it is to navigate and how well it captures the essence of our landscaping services.",
     name: "Spencer Kropman",
     title: "Owner, Lawn in Order Landscaping",
-  },
-];
-
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
   },
 ];
 
