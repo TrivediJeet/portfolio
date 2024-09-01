@@ -132,22 +132,22 @@ export const BentoGridItem = ({
           {id === 3 && (
             <div className="flex gap-1 2xl:gap-5 w-fit absolute -right-3 2xl:-right-2">
               {/* tech stack lists */}
-              <div className="flex flex-col gap-1.5 2xl:gap-8">
+              <div className="flex flex-col gap-1.5">
                 {leftLists.map((item, i) => (
                   <span
                     key={i}
-                    className="2xl:py-4 2xl:px-3 py-2 px-3 text-xs 2xl:text-base opacity-50 
+                    className="2xl:py-4 md:py-3 py-2 px-3 text-xs opacity-50 
                     lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
                     {item}
                   </span>
                 ))}
               </div>
-              <div className="flex flex-col gap-1.5 2xl:gap-8">
+              <div className="flex flex-col gap-1.5">
                 {rightLists.map((item, i) => (
                   <span
                     key={i}
-                    className="2xl:py-4 2xl:px-3 py-2 px-3 text-xs 2xl:text-base opacity-50 
+                    className="2xl:py-4 md:py-3 py-2 px-3 text-xs opacity-50 
                     lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
                     {item}
