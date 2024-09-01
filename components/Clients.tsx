@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import { companies, testimonials } from "@/data";
+import { testimonials } from "@/data";
 import { InfiniteMovingCards } from "./ui/InfiniteCards";
 
 const Clients = () => {
@@ -14,9 +14,7 @@ const Clients = () => {
       </h1>
 
       <div className="flex flex-col items-center max-lg:mt-10">
-        <div
-          className="min-h-[40vh] md:min-h-[50vh] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden"
-        >
+        <div className="min-h-[40vh] md:min-h-[50vh] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden">
           <InfiniteMovingCards
             items={testimonials}
             direction="right"
