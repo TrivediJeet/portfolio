@@ -58,15 +58,7 @@ export const BentoGridItem = ({
     "Expo",
     "Cypress",
   ];
-  const rightLists = [
-    "Clerk",
-    "GraphQL",
-    "SQL",
-    "GCP",
-    ".NET",
-    "Stripe",
-    "Neon",
-  ];
+  const rightLists = ["Vite", "GraphQL", "SQL", "GCP", ".NET", "Lit", "AWS"];
 
   const [copied, setCopied] = useState(false);
 

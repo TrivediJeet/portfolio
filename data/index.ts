@@ -1,14 +1,16 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Experience", link: "#experience" },
+  { name: "Tech Stack", link: "#techstack" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      "I thrive in collaborative environments, working with cross-functional teams",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -38,7 +40,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Tech enthusiast with a passion for development",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently seeking my next opportunity",
+    title: "Currently building out a web component library",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -59,7 +61,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Want to get in touch?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -94,44 +96,11 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Working with Jeet to create our new landscaping website was an absolute pleasure. From the start, his open communication and clear guidance put us at ease throughout the entire process. He took the time to truly understand our business, our vision, and our target audience. The end result was nothing short of amazing. The website is modern, visually stunning, and perfectly showcases the quality of our work. We've received so many compliments from our customers on how easy it is to navigate and how well it captures the essence of our landscaping services.",
-    name: "Spencer Kropman",
-    title: "Owner, Lawn in Order Landscaping",
-  },
-  {
-    quote:
-      "Working with Jeet to create our new landscaping website was an absolute pleasure. From the start, his open communication and clear guidance put us at ease throughout the entire process. He took the time to truly understand our business, our vision, and our target audience. The end result was nothing short of amazing. The website is modern, visually stunning, and perfectly showcases the quality of our work. We've received so many compliments from our customers on how easy it is to navigate and how well it captures the essence of our landscaping services.",
-    name: "Spencer Kropman",
-    title: "Owner, Lawn in Order Landscaping",
-  },
-  {
-    quote:
-      "Working with Jeet to create our new landscaping website was an absolute pleasure. From the start, his open communication and clear guidance put us at ease throughout the entire process. He took the time to truly understand our business, our vision, and our target audience. The end result was nothing short of amazing. The website is modern, visually stunning, and perfectly showcases the quality of our work. We've received so many compliments from our customers on how easy it is to navigate and how well it captures the essence of our landscaping services.",
-    name: "Spencer Kropman",
-    title: "Owner, Lawn in Order Landscaping",
-  },
-  {
-    quote:
-      "Working with Jeet to create our new landscaping website was an absolute pleasure. From the start, his open communication and clear guidance put us at ease throughout the entire process. He took the time to truly understand our business, our vision, and our target audience. The end result was nothing short of amazing. The website is modern, visually stunning, and perfectly showcases the quality of our work. We've received so many compliments from our customers on how easy it is to navigate and how well it captures the essence of our landscaping services.",
-    name: "Spencer Kropman",
-    title: "Owner, Lawn in Order Landscaping",
-  },
-  {
-    quote:
-      "Working with Jeet to create our new landscaping website was an absolute pleasure. From the start, his open communication and clear guidance put us at ease throughout the entire process. He took the time to truly understand our business, our vision, and our target audience. The end result was nothing short of amazing. The website is modern, visually stunning, and perfectly showcases the quality of our work. We've received so many compliments from our customers on how easy it is to navigate and how well it captures the essence of our landscaping services.",
-    name: "Spencer Kropman",
-    title: "Owner, Lawn in Order Landscaping",
-  },
-];
-
 export const workExperience = [
   {
     id: 1,
     title: "Senior Software Engineer",
-    company: "Stack",
+    company: "STACK",
     timeline: "OCTOBER 2021 - PRESENT",
     desc: "Led the development of a component library, from initial concept to deployment",
     thumbnail: "/exp1.svg",
