@@ -1,21 +1,26 @@
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
-
 import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
-const Approach = () => {
+const TechStack = () => {
   return (
-    <section className="w-full pt-20">
+    <section className="w-full pt-10" id="techstack">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        My <span className="text-purple">tech stack</span>
       </h1>
-      <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
+      <div className="my-10 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          icon={<AceternityIcon order="Languages" />}
+          listItems={[
+            "Javascript",
+            "Typescript",
+            "HTML",
+            "CSS",
+            "SASS/SCSS",
+            "C#",
+            "SQL",
+            "Python",
+          ]}
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -23,11 +28,29 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
-          icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          icon={<AceternityIcon order="Frameworks" />}
+          listItems={[
+            "Angular",
+            "AngularJS",
+            "React",
+            "Redux",
+            "Next.js",
+            "React Native",
+            "Expo",
+            "RxJS",
+            "GraphQL",
+            "Tailwind",
+            "Nativewind",
+            "Webpack",
+            "Vite",
+            "Node.js",
+            "Express.js",
+            ".NETCore",
+            "Docker",
+            "Kubernetes",
+            "GCP",
+            "AWS",
+          ]}
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -40,11 +63,17 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Launch"
-          icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          icon={<AceternityIcon order="Testing" />}
+          listItems={[
+            "Jest",
+            "Karma",
+            "Chai",
+            "Sinon",
+            "Cypress",
+            "Storybook",
+            "Vitest",
+            "Protractor",
+          ]}
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -57,18 +86,20 @@ const Approach = () => {
   );
 };
 
-export default Approach;
+export default TechStack;
 
 const Card = ({
   title,
   icon,
   children,
   des,
+  listItems,
 }: {
-  title: string;
+  title?: string;
   icon: React.ReactNode;
   children?: React.ReactNode;
-  des: string;
+  des?: string;
+  listItems?: string[];
 }) => {
   const [hovered, setHovered] = React.useState(false);
   return (
@@ -104,7 +135,7 @@ const Card = ({
       <div className="relative z-20 px-10">
         <div
           className="text-center group-hover/canvas-card:-translate-y-4 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] 
-        group-hover/canvas-card:opacity-0 transition duration-200 min-w-40 mx-auto flex items-center justify-center"
+          group-hover/canvas-card:opacity-0 transition duration-200 min-w-40 mx-auto flex items-center justify-center"
         >
           {icon}
         </div>
@@ -115,14 +146,28 @@ const Card = ({
         >
           {title}
         </h2>
-        <p
-          className="text-sm opacity-0 group-hover/canvas-card:opacity-100
-         relative z-10 mt-4 group-hover/canvas-card:text-white text-center
-         group-hover/canvas-card:-translate-y-2 transition duration-200"
-          style={{ color: "#E4ECFF" }}
-        >
-          {des}
-        </p>
+        {des && (
+          <p
+            className="text-sm opacity-0 group-hover/canvas-card:opacity-100
+            relative z-10 mt-4 group-hover/canvas-card:text-white text-center
+            group-hover/canvas-card:-translate-y-2 transition duration-200"
+            style={{ color: "#E4ECFF" }}
+          >
+            {des}
+          </p>
+        )}
+
+        {listItems && (
+          <div
+            className="text-sm opacity-0 group-hover/canvas-card:opacity-100
+            relative z-10 mt-4 group-hover/canvas-card:text-white text-center
+            group-hover/canvas-card:-translate-y-2 transition duration-200 flex flex-col items-start text-white [&>*:nth-child(odd)]:font-semibold"
+          >
+            {listItems.map((i, index) => (
+              <div key={index}> {i} </div>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

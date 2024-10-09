@@ -6,7 +6,7 @@ import { Button } from "./ui/MovingBorders";
 
 const Experience = () => {
   return (
-    <div className="pt-20 w-full">
+    <section className="pt-10 w-full" id="experience">
       <h1 className="heading">
         My <span className="text-purple">work experience</span>
       </h1>
@@ -45,9 +45,7 @@ const Experience = () => {
                     {card.timeline}
                   </p>
 
-                  <h1 className="text-start text-xl md:text-2xl font-bold">
-                    {card.title}
-                  </h1>
+                  <h1 className="text-start text-xl font-bold">{card.title}</h1>
                   <h2 className="text-start text-white-100 font-thin">
                     {card.company}
                   </h2>
@@ -61,7 +59,7 @@ const Experience = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
