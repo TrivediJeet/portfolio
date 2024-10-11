@@ -76,7 +76,7 @@ export const projects = [
     id: 1,
     title: "Algorthim Visualizer",
     des: "Visualize sorting algorithms with ease! Sortscape guides you through interactive demonstrations that reveal the inner workings of each method",
-    img: "/p2.svg",
+    img: "/p1.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/re.svg"],
     link: "https://sortflix.jeettrivedi.io/",
   },
@@ -84,7 +84,7 @@ export const projects = [
     id: 2,
     title: "Uber Clone",
     des: "A full-stack Uber clone built with React Native, showcasing real-time location tracking, seamless booking, and secure payments",
-    img: "/iP14PM_Mock-up_Maker_2-removebg-preview.png",
+    img: "/p2.png",
     iconLists: [
       "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAWlBMVEUAABMAABQAAAoAAABGRkvT09To6OhxcXTi4uP8/P02NjwAAAePj5LFxcb///8NDRr29vampqiwsLK4uLoAABBBQUeenqBYWFwAAA4XFyHNzc7AwMKVlZeCgoUNhqjnAAAAnUlEQVR4Ac3SRQKEMAAEwWwad3f+/8x1I3ZmjlMQF+5crDkBSmlHPA8b4geBjxkJI4hCTCiIkzRNYoQByXLuyTN0FBQlVUVZIDSkbmjruqWpUbGTBV4McU+RdgrSDlQjjBVDyxGnuSBb7iVLRjFPB2S9d929m0RBtnLEimV7Vmw5lYJ7HLwbgnhHWVD/WWMne9R9yt+pyfO8IRVduQHSkAgQ6p7d2QAAAABJRU5ErkJggg==",
       "/tail.svg",
