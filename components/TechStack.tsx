@@ -1,6 +1,11 @@
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
+import {
+  techStackFrameworksIconUrls,
+  techStackLanguagesIconUrls,
+  techStackTestingIconUrls,
+} from "@/data";
 
 const TechStack = () => {
   return (
@@ -11,16 +16,7 @@ const TechStack = () => {
       <div className="my-10 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         <Card
           icon={<AceternityIcon order="Languages" />}
-          listItems={[
-            "Javascript",
-            "Typescript",
-            "HTML",
-            "CSS",
-            "SASS/SCSS",
-            "C#",
-            "SQL",
-            "Python",
-          ]}
+          imageSrcList={Object.values(techStackLanguagesIconUrls)}
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -29,28 +25,7 @@ const TechStack = () => {
         </Card>
         <Card
           icon={<AceternityIcon order="Frameworks" />}
-          listItems={[
-            "Angular",
-            "AngularJS",
-            "React",
-            "Redux",
-            "Next.js",
-            "React Native",
-            "Expo",
-            "RxJS",
-            "GraphQL",
-            "Tailwind",
-            "Nativewind",
-            "Webpack",
-            "Vite",
-            "Node.js",
-            "Express.js",
-            ".NETCore",
-            "Docker",
-            "Kubernetes",
-            "GCP",
-            "AWS",
-          ]}
+          imageSrcList={Object.values(techStackFrameworksIconUrls)}
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -64,16 +39,7 @@ const TechStack = () => {
         </Card>
         <Card
           icon={<AceternityIcon order="Testing" />}
-          listItems={[
-            "Jest",
-            "Karma",
-            "Chai",
-            "Sinon",
-            "Cypress",
-            "Storybook",
-            "Vitest",
-            "Protractor",
-          ]}
+          imageSrcList={Object.values(techStackTestingIconUrls)}
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -94,12 +60,14 @@ const Card = ({
   children,
   des,
   listItems,
+  imageSrcList,
 }: {
   title?: string;
   icon: React.ReactNode;
   children?: React.ReactNode;
   des?: string;
   listItems?: string[];
+  imageSrcList?: string[];
 }) => {
   const [hovered, setHovered] = React.useState(false);
   return (
@@ -165,6 +133,17 @@ const Card = ({
           >
             {listItems.map((i, index) => (
               <div key={index}> {i} </div>
+            ))}
+          </div>
+        )}
+        {imageSrcList && (
+          <div
+            className="text-sm opacity-0 group-hover/canvas-card:opacity-100
+            relative z-10 mt-4 group-hover/canvas-card:text-white text-center
+            group-hover/canvas-card:-translate-y-2 transition duration-200 flex flex-wrap justify-center gap-2"
+          >
+            {imageSrcList.map((i, index) => (
+              <img key={index} src={i} alt="thumbnail" />
             ))}
           </div>
         )}

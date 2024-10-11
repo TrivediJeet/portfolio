@@ -135,3 +135,71 @@ export const socialMedia = [
     link: "https://www.linkedin.com/in/jeet-trivedi-thornhill/",
   },
 ];
+
+export const techStackLanguagesIconUrls: { [key: string]: string } = {
+  Javascript:
+    "https://img.shields.io/badge/-javascript-black?style=for-the-badge&logoColor=white&logo=javascript&color=06B6D4",
+  Typescript:
+    "https://img.shields.io/badge/-typescript-black?style=for-the-badge&logoColor=white&logo=typescript&color=06B6D4",
+  HTML: "https://img.shields.io/badge/-html-black?style=for-the-badge&logoColor=white&logo=html5&color=06B6D4",
+  CSS: "https://img.shields.io/badge/-css-black?style=for-the-badge&logoColor=white&logo=css3&color=06B6D4",
+  "SASS/SCSS":
+    "https://img.shields.io/badge/-sass-black?style=for-the-badge&logoColor=white&logo=sass&color=06B6D4",
+  "C#": "https://img.shields.io/badge/-C_Sharp-black?style=for-the-badge&logoColor=white&logo=.NET&color=06B6D4",
+  SQL: "https://img.shields.io/badge/-SQL-black?style=for-the-badge&logoColor=white&logo=postgresql&color=06B6D4",
+  Python:
+    "https://img.shields.io/badge/-python-black?style=for-the-badge&logoColor=white&logo=python&color=06B6D4",
+};
+
+export const techStackFrameworksIconUrls: { [key: string]: string } = {
+  Angular:
+    "https://img.shields.io/badge/-Angular-black?style=for-the-badge&logoColor=white&logo=Angular&color=06B6D4",
+  React:
+    "https://img.shields.io/badge/-React-black?style=for-the-badge&logoColor=white&logo=React&color=06B6D4",
+  Redux:
+    "https://img.shields.io/badge/-Redux-black?style=for-the-badge&logoColor=white&logo=Redux&color=06B6D4",
+  "Next.js":
+    "https://img.shields.io/badge/-Next.js-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=06B6D4",
+  "React Native":
+    "https://img.shields.io/badge/-React_Native-black?style=for-the-badge&logoColor=white&logo=nativescript&color=06B6D4",
+  Expo: "https://img.shields.io/badge/-Expo-black?style=for-the-badge&logoColor=white&logo=expo&color=06B6D4",
+  RxJS: "https://img.shields.io/badge/-RxJS-black?style=for-the-badge&logoColor=white&logo=reactivex&color=06B6D4",
+  GraphQL:
+    "https://img.shields.io/badge/-GraphQL-black?style=for-the-badge&logoColor=white&logo=graphql&color=06B6D4",
+  Tailwind:
+    "https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4",
+  Webpack:
+    "https://img.shields.io/badge/-Webpack-black?style=for-the-badge&logoColor=white&logo=webpack&color=06B6D4",
+  Vite: "https://img.shields.io/badge/-Vite-black?style=for-the-badge&logoColor=white&logo=vite&color=06B6D4",
+  "Node.js":
+    "https://img.shields.io/badge/-Node.js-black?style=for-the-badge&logoColor=white&logo=nodedotjs&color=06B6D4",
+  "Express.js":
+    "https://img.shields.io/badge/-Express.js-black?style=for-the-badge&logoColor=white&logo=express&color=06B6D4",
+  ".NETCore":
+    "https://img.shields.io/badge/-.NETCore-black?style=for-the-badge&logoColor=white&logo=.NET&color=06B6D4",
+  Docker:
+    "https://img.shields.io/badge/-Docker-black?style=for-the-badge&logoColor=white&logo=docker&color=06B6D4",
+  Kubernetes:
+    "https://img.shields.io/badge/-Kubernetes-black?style=for-the-badge&logoColor=white&logo=kubernetes&color=06B6D4",
+  GCP: "https://img.shields.io/badge/-Google_Cloud-black?style=for-the-badge&logoColor=white&logo=googlecloud&color=06B6D4",
+  AWS: "https://img.shields.io/badge/-AWS-black?style=for-the-badge&logoColor=white&logo=amazonwebservices&color=06B6D4",
+};
+
+export const techStackTestingIconUrls: { [key: string]: string } = {
+  Jest: "https://img.shields.io/badge/-Jest-black?style=for-the-badge&logoColor=white&logo=jest&color=06B6D4",
+  TestingLibrary:
+    "https://img.shields.io/badge/-Testing_Library-black?style=for-the-badge&logoColor=white&logo=testinglibrary&color=06B6D4",
+  Cypress:
+    "https://img.shields.io/badge/-Cypress-black?style=for-the-badge&logoColor=white&logo=cypress&color=06B6D4",
+  Storybook:
+    "https://img.shields.io/badge/-Storybook-black?style=for-the-badge&logoColor=white&logo=storybook&color=06B6D4",
+  Vitest:
+    "https://img.shields.io/badge/-Vitest-black?style=for-the-badge&logoColor=white&logo=vitest&color=06B6D4",
+  Protractor:
+    "https://img.shields.io/badge/-Protractor-black?style=for-the-badge&logoColor=white&logo=protractor&color=06B6D4",
+  Chai: "https://img.shields.io/badge/-Chai-black?style=for-the-badge&logoColor=white&logo=chai&color=06B6D4",
+  Sinon:
+    "https://img.shields.io/badge/-Sinon-black?style=for-the-badge&logoColor=white&logo=sanity&color=06B6D4",
+  Karma:
+    "https://img.shields.io/badge/-Karma-black?style=for-the-badge&logoColor=white&logo=keenetic&color=06B6D4",
+};
